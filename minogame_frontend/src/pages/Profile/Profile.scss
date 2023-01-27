@@ -1,0 +1,21 @@
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+  }
+
+  .description {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .button-group {
+    text-align: center;
+  }
+}

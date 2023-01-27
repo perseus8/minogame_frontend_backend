@@ -1,0 +1,38 @@
+div.wallet-connect-button {
+  button.wallet-connect-button {
+    background: white;
+    &:hover {
+      background: white;
+    }
+  }
+}
+
+.wallets-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  button.wallet-item {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    font-size: 16px;
+    transition: all 0.4s;
+    width: 100%;
+    padding: 0 20px;
+
+    img {
+      height: 32px;
+      margin: 0 12px 0 0;
+    }
+
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+}
